@@ -14,7 +14,7 @@ Configured Microsoft 365 licenses to be assigned through a governed security gro
 
 Created a dedicated Identity Governance catalog to logically group onboarding-related resources and establish administrative boundaries.
 
-## 3. Catalog Resource Definition
+### Catalog Resource Definition
 <img width="959" height="497" alt="IAMLAB13" src="https://github.com/user-attachments/assets/e40457d5-d85c-4efe-82f9-5d59b86c42cd" />
 
 Added security groups and governed resources to the catalog, defining the scope of access that can be managed through entitlement workflows.
@@ -23,12 +23,12 @@ Added security groups and governed resources to the catalog, defining the scope 
   -  Simplifies access package design
   -   Enables scalable governance
 
-## 🎟️ 4. Entitlement Management (Access Package Creation)
+## 🎟️ 3. Entitlement Management (Access Package Creation)
 <img width="959" height="500" alt="IAMLAB5" src="https://github.com/user-attachments/assets/6224cc0b-03c1-4c1d-90af-21ebf52c1b1b" />
 
 Created an access package tied to the onboarding catalog, defining what access users can request and receive.
 
-## ⏱️ 5. Expiration & Access Reviews
+## ⏱️ 4. Expiration & Access Reviews
 <img width="959" height="497" alt="IAMLAB9" src="https://github.com/user-attachments/assets/586edc87-db00-419d-820d-8d1d6a9b3e77" />
 
 Configured:
@@ -41,11 +41,11 @@ Configured:
   -  Enables continuous validation
   -  Supports audit and compliance requirements
  
-## 🔄 6. Onboarding Lifecycle Workflow Integration
+## 🔄 5. Onboarding Lifecycle Workflow Integration
 <img width="959" height="499" alt="IAMLAB10" src="https://github.com/user-attachments/assets/22a82413-64a2-46ef-9a4c-359fbb81f278" />
 Integrated the access package into an onboarding lifecycle workflow. When users enter scope, the workflow automatically initiates an access package request.
 
-## 📨 Automated Onboarding Tasks
+### 📨 Automated Onboarding Tasks
 <img width="959" height="466" alt="IAMLAB11" src="https://github.com/user-attachments/assets/cf9bc0dc-8189-4688-a732-91b70eb0257c" />
 
 Configured tasks to:
@@ -58,5 +58,12 @@ Configured tasks to:
   -  Ensures governance is applied at onboarding
   -  Aligns provisioning with policy
 
+## 🚪 6. Offboarding & Deprovisioning
 <img width="959" height="498" alt="IAMLAB12" src="https://github.com/user-attachments/assets/921314d7-26f7-4aff-bcaf-df448e3020bd" />
+
+Implemented offboarding workflows to automate access removal and deprovisioning, ensuring users lose access promptly when leaving or changing roles.
+
+- Reduces lingering access risk
+- Enforces least privilege
+- Completes the joiner–mover–leaver lifecycle
 
